@@ -23,8 +23,7 @@
   --line-height-big: 1.8;
 
   --section-header-align: center;
-
-  --link-hover-color: #d73953;
+  --section-tagline-transform: uppercase;
 }
 
 html {
@@ -45,10 +44,6 @@ a {
   text-decoration: none;
 }
 
-a:hover {
-  color: var(--link-hover-color);
-}
-
 .visually-hidden {
   display: none;
 }
@@ -63,6 +58,9 @@ a:hover {
 
 .section-tagline {
   color: var(--color-primary);
+  font-family: var(--font-family-title);
+  text-transform: var(--section-tagline-transform);
+  font-weight: var(--font-weight-bold);
 }
 
 h1,
