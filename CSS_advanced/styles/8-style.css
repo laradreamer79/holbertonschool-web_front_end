@@ -18,8 +18,9 @@
   --font-weight-regular: 400;
   --font-weight-bold: 700;
 
-  --letter-spacing-small: 0.0375rem;
-  --letter-spacing-big: 0.1875rem;
+  --line-height-small: 1.2;
+  --line-height-base: 1.5;
+  --line-height-big: 1.8;
 }
 
 html {
@@ -32,6 +33,7 @@ body {
   font-family: var(--font-family-base);
   font-size: var(--font-size-medium);
   font-weight: var(--font-weight-regular);
+  line-height: var(--line-height-base);
 }
 
 a {
@@ -44,12 +46,10 @@ a {
 
 .card-category {
   color: var(--color-primary);
-  letter-spacing: var(--letter-spacing-big);
 }
 
 .section-tagline {
   color: var(--color-primary);
-  letter-spacing: var(--letter-spacing-small);
 }
 
 h1,
