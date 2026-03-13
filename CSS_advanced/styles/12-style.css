@@ -98,5 +98,5 @@ a[href]:hover {
 }
 
 a[href]:active {
-  background-color: var(--color-light-grey);
+  background: var(--color-light-grey);
 }
